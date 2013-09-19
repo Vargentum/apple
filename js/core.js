@@ -72,7 +72,7 @@ $(function(){
 /*tabs*/
 $(function(){
     $('.b-tabs__nav').tabs('.b-tabs .b-tabs__unit');
-    $('.b-tabs__nav').click(function(e){
+    $('.b-tabs__nav__unit').click(function(e){
         e.preventDefault();
     });
 });
